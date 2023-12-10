@@ -1,0 +1,11 @@
+anchor_version = "0.17.0"
+
+[provider]
+cluster = "devnet"
+wallet = "~/sites/jobs/xav-raffle/operations/deploy-keypair.json"
+
+[programs.devnet]
+draffle = "8ekc2dYyM67ZQvN2kvF6ZTM94PCQnbWTjMH2gjb9qZtK"
+
+[scripts]
+test = "mocha -t 1000000 tests"

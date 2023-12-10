@@ -1,0 +1,22 @@
+
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+
+node_modules
+test-ledger
+target
+
+artifacts
+
+operations/*
+operations
+./operations
+
+~/sites/jobs/xav-raffle/operations
+.vercel
+
+# Local Netlify folder
+.netlify
+app/netlify/
